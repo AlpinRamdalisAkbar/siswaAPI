@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siswaAPI", "siswaAPI\siswaAPI.csproj", "{2FA71CC7-A6E9-4F86-8072-EFA023436ECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA71CC7-A6E9-4F86-8072-EFA023436ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA71CC7-A6E9-4F86-8072-EFA023436ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA71CC7-A6E9-4F86-8072-EFA023436ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA71CC7-A6E9-4F86-8072-EFA023436ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5290277F-B43B-4D63-861E-2728B474B8E2}
+	EndGlobalSection
+EndGlobal
