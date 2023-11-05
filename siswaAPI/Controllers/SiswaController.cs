@@ -73,5 +73,24 @@ namespace siswaAPI.Controllers
             
             return Ok(data);
         }
+
+        [HttpDelete]
+        [Route("{id:Guid}")]
+        public IActionResult DeleteData([FromRoute] Guid id)
+        {
+            var isExist = _contextSiswa.SISWA.Any(s => s.ID == id);
+
+            if (!isExist)
+            {
+                return NotFound();
+            }
+
+            var deletedData = _contextSiswa.SISWA.Where(s => s.ID == id).FirstOrDefault();
+
+            _contextSiswa.Remove(deletedData);
+            _contextSiswa.SaveChanges();
+
+            return NoContent();
+        }
     }
 }
